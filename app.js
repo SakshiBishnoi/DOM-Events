@@ -15,3 +15,8 @@ btn2.onmouseenter  = scream;
 document.querySelector('h1').onclick = ()  => {
     alert("You clicked on the heading");
     };
+
+const btn3 = document.querySelector('#b3');
+btn3.addEventListener('dblclick', function(){
+    alert('Clicked! button 3');
+});
