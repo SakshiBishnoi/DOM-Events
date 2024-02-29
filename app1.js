@@ -9,6 +9,8 @@ btn1.addEventListener("click", function(){
 
    
     //h2.style.color  = newColor;
+    //h2.style.backgroundColor = makeRanClr();
+    h2.style.color = makeRanClr();
     h2.innerText =  `New Background Color: ${newColor}`;
     
 
