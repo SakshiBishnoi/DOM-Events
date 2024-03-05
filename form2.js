@@ -1,24 +1,31 @@
-
 const tweetLink  = document.querySelector('#tweetLink');
+const tweetC = document.querySelector('#tweetlist');
+// const username = document.querySelector( '#username' );
+// const tweet = document.querySelector("#tweet");
 
 tweetLink.addEventListener('submit', function(e) {
    e.preventDefault(); 
    
-   const username = tweetLink.elements.username.value;
-   const tweet = tweetLink.elements.tweetinput.value;
+   const usernameInput = tweetLink.elements.username;
+   const tweetInput = tweetLink.elements.tweet;
 
-   const list = document.createElement('li');
+   addTweet(usernameInput.value, tweetInput.value);
+   usernameInput.value="";
+   tweetInput.value="";
+    
+});
+
+
+const addTweet = (username, tweet) => {
+    const list = document.createElement('li');
    const btag = document.createElement('b');
 
    btag.append(username);
    list.append(btag);
    list.append(`- ${tweet}`);
     console.log(list);
-    
-});
-
-
-
+    tweetC.append(list);
+}
 
 
 
