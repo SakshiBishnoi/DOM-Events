@@ -27,6 +27,21 @@ const addTweet = (username, tweet) => {
     tweetC.append(list);
 }
 
+// const addTweet = (username, tweet) => {
+//     const list = document.createElement('li');
+//     list.innerText = `${username} ${tweet}`;
+//     tweetC.append(list);
+// }
+
+
+
+
+
+
+
+
+
+
 
 
 
