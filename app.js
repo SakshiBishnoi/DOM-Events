@@ -35,8 +35,3 @@ input.addEventListener('keydown', function(e){
     console.log(e.code);
 })
 
-const form = document.querySelector('#form1');
-form.addEventListener('submit', function (e) {
-    e.preventDefault();
-    console.log('form subumited');
-});
