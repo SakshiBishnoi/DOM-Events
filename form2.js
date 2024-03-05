@@ -33,16 +33,6 @@ const addTweet = (username, tweet) => {
 
 
 
-
-
-
-
-
-
-
-
-
-
 // const tweetLink = document.querySelector('#tweetLink');
 // const username = document.querySelector('#username');
 // const tweets = document.querySelector('#tweetinput');
