@@ -1,22 +1,9 @@
-const liss = document.querySelector(#li);
+const liss = document.querySelectorAll('li');
 for (let lis of liss){
     lis.addEventListener("click",(e) => {
-    lis.remove;
+    lis.remove();
 });
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 const tweetLink  = document.querySelector('#tweetLink');
 const tweetC = document.querySelector('#tweetlist');
@@ -55,7 +42,10 @@ const addTweet = (username, tweet) => {
 
 
 
-
+tweetC.addEventListener("click", (e) => {
+    console.log("ul clicked");
+    e.target.nodename = 'LI' && e.target.remove();
+});
 
 
 
