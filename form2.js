@@ -1,3 +1,23 @@
+const liss = document.querySelector(#li);
+for (let lis of liss){
+    lis.addEventListener("click",(e) => {
+    lis.remove;
+});
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const tweetLink  = document.querySelector('#tweetLink');
 const tweetC = document.querySelector('#tweetlist');
 // const username = document.querySelector( '#username' );
